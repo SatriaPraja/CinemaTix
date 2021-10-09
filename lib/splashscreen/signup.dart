@@ -1,4 +1,5 @@
 import 'package:cinematix/constanst.dart';
+import 'package:cinematix/splashscreen/newaccount.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cinematix/screen/home.dart';
@@ -72,7 +73,7 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           Positioned(
-            top: 174,
+            top: 180,
             left: 45,
             child: Text('Full Name',
               style: TextStyle(
@@ -112,7 +113,7 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           Positioned(
-            top: 274,
+            top: 280,
             left: 45,
             child: Text('Email Address',
               style: TextStyle(
@@ -152,7 +153,7 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           Positioned(
-            top: 374,
+            top: 380,
             left: 45,
             child: Text('Password',
               style: TextStyle(
@@ -192,7 +193,7 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           Positioned(
-            top: 474,
+            top: 480,
             left: 45,
             child: Text(' Confirm Password',
               style: TextStyle(
@@ -210,7 +211,7 @@ class _SignUpPageState extends State<SignUpPage> {
               onTap: () {
                 Navigator.of(context)
                     .push(
-                    MaterialPageRoute(builder: (context) => MyHomePage())
+                    MaterialPageRoute(builder: (context) => NewAccountPage())
                 );
               },
               borderRadius: BorderRadius.circular(10),

@@ -75,7 +75,6 @@ class NewAccountPage extends StatelessWidget {
                 ),
               ),
             ),
-
           ],
         ),
       ),

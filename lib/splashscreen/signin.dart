@@ -65,7 +65,7 @@ class _SignInPageState extends State<SignInPage> {
             ),
           ),
           Positioned(
-            top: 414,
+            top: 420,
             left: 45,
             child: Text('Email Address',
               style: TextStyle(
@@ -106,7 +106,7 @@ class _SignInPageState extends State<SignInPage> {
             ),
           ),
           Positioned(
-            top: 514,
+            top: 520,
             left: 45,
             child: Text('Password',
               style: TextStyle(
@@ -176,7 +176,7 @@ class _SignInPageState extends State<SignInPage> {
 
           Positioned(
             top: 740,
-            left: 70,
+            left: 95,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

@@ -1,5 +1,11 @@
-
+import 'package:cinematix/screen/book.dart';
+import 'package:cinematix/screen/checkout.dart';
+import 'package:cinematix/screen/detailmovie.dart';
 import 'package:cinematix/screen/home.dart';
+import 'package:cinematix/screen/newmovie.dart';
+import 'package:cinematix/screen/pay.dart';
+import 'package:cinematix/splashscreen/signin.dart';
+import 'package:cinematix/splashscreen/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'constanst.dart';
